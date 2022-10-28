@@ -1,0 +1,1 @@
+"use strict";!function(){function e(){document.body.classList.remove("keyboard-only"),document.removeEventListener("mousemove",e),document.removeEventListener("touchstart",e)}document.body.classList.add("keyboard-only"),document.addEventListener("mousemove",e,{once:!0}),document.addEventListener("touchstart",e,{once:!0})}();
